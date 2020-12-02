@@ -1,9 +1,9 @@
-// const logItems = function(array) {
-//   for (let index = 0, num = 1; index < array.length; index += 1, num += 1) {
-//     console.log(`${num} - ${array[index]}`);
-//   }
-// };
+const logItems = function(array) {
+  for (let i = 0, n = 1; i < array.length; i += 1, n += 1) {
+    console.log(`${n} - ${array[i]}`);
+  }
+};
 
-// logItems(['Mango', 'Poly', 'Ajax', 'Lux', 'Jay', 'Kong']);
+logItems(['Mango', 'Poly', 'Ajax', 'Lux', 'Jay', 'Kong']);
 
-// logItems([5, 10, 15, 20, 25, 30, 35, 40, 45, 50]);
+logItems([5, 10, 15, 20, 25, 30, 35, 40, 45, 50]);
