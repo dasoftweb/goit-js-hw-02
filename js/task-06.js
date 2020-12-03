@@ -12,9 +12,8 @@ while (true) {
   if (notANumber) {
     alert("Было введено не число, попробуйте еще раз");
     continue;
-  } else {
-    numbers.push(Number(input));
   }
+  numbers.push(Number(input));
 }
 
 for (const number of numbers) {
@@ -22,4 +21,3 @@ for (const number of numbers) {
 }
 
 console.log(`Общая сумма чисел равна ${total}.`);
-//console.log(numbers);
