@@ -8,12 +8,11 @@ while (true) {
     break;
   }
   input = Number(input);
-  const notANumber = Number.isNaN(input);
-  if (notANumber) {
+  if (Number.isNaN(input)) {
     alert("Было введено не число, попробуйте еще раз");
     continue;
   }
-  numbers.push(Number(input));
+  numbers.push(input);
 }
 
 for (const number of numbers) {
