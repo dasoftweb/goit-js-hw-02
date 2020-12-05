@@ -19,7 +19,9 @@ for (const number of numbers) {
   total += number;
 }
 
+if (numbers.length !== 0) {
 console.log(`Общая сумма чисел равна ${total}.`);
+}
 
 // FOR --------------------------------------------//
 
@@ -40,4 +42,6 @@ console.log(`Общая сумма чисел равна ${total}.`);
 //   }
 // }
 
-// console.log(`Общая сумма чисел равна ${total}.`);
+// if (numbers.length !== 0) {
+//   console.log(`Общая сумма чисел равна ${total}.`);
+//   }
